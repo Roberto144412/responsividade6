@@ -27,7 +27,7 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top:100%;
+    top: 100%;
     width: 60vw;
 }
 
@@ -37,19 +37,24 @@
 
 .lista-menu__titulo,
 .lista-menu__item {
-  padding: 1em;
-  background-color: var(--branco);
+    padding: 1em;
+    background-color: var(--branco);
 }
 
 .lista-menu__titulo {
     color: var(--laranja);
-  }
+    font-weight: 700;
+}
 
-  .lista-menu__link {
+.lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
-  }
+}
+
+.container__botao {
+    display: none;
+}
   
